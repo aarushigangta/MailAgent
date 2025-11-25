@@ -1,0 +1,259 @@
+{
+  "emails": [
+    {
+      "id": "msg_001",
+      "subject": "Welcome to Our Platform!",
+      "from": "welcome@company.com",
+      "to": "user@example.com",
+      "date": "2024-11-20T09:30:00Z",
+      "snippet": "Thank you for joining us! We're excited to have you on board. Get started by exploring our features...",
+      "body": "Hi there,\n\nThank you for joining our platform! We're thrilled to have you as part of our community.\n\nHere are some quick tips to get started:\n1. Complete your profile\n2. Explore our dashboard\n3. Connect with other users\n\nIf you have any questions, feel free to reach out to our support team.\n\nBest regards,\nThe Team",
+      "labels": ["INBOX", "UNREAD"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_002",
+      "subject": "Your Invoice #INV-2024-1156",
+      "from": "billing@service.com",
+      "to": "user@example.com",
+      "date": "2024-11-19T14:22:00Z",
+      "snippet": "Your invoice for November 2024 is now available. Amount due: $49.99...",
+      "body": "Dear Customer,\n\nYour invoice for November 2024 is ready.\n\nInvoice Number: INV-2024-1156\nAmount Due: $49.99\nDue Date: December 5, 2024\n\nPlease log in to your account to view and download your invoice.\n\nThank you for your business!",
+      "labels": ["INBOX"],
+      "attachments": [
+        {
+          "filename": "invoice_nov_2024.pdf",
+          "size": 145820
+        }
+      ],
+      "read": true
+    },
+    {
+      "id": "msg_003",
+      "subject": "Weekly Newsletter: Top Stories",
+      "from": "newsletter@newssite.com",
+      "to": "user@example.com",
+      "date": "2024-11-18T08:00:00Z",
+      "snippet": "This week's top tech stories: AI breakthroughs, new smartphone releases, and cybersecurity updates...",
+      "body": "Weekly Tech Roundup\n\n1. AI Breakthroughs: New models show impressive capabilities\n2. Smartphone Wars: Latest flagship releases compared\n3. Cybersecurity Alert: Important updates for all users\n4. Gaming News: Upcoming releases to watch\n5. Developer Tools: New frameworks and libraries\n\nRead more on our website!",
+      "labels": ["INBOX", "NEWSLETTERS"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_004",
+      "subject": "Meeting Reminder: Project Sync Tomorrow at 2 PM",
+      "from": "sarah.johnson@workplace.com",
+      "to": "user@example.com",
+      "date": "2024-11-24T16:45:00Z",
+      "snippet": "Hi team, just a reminder about tomorrow's project sync meeting. Please review the documents before...",
+      "body": "Hi team,\n\nQuick reminder about our project sync meeting tomorrow (November 25) at 2:00 PM.\n\nAgenda:\n- Sprint review\n- Blockers discussion\n- Next week's planning\n\nPlease review the shared documents before the meeting.\n\nZoom link: https://zoom.us/j/123456789\n\nSee you there!\nSarah",
+      "labels": ["INBOX", "IMPORTANT", "WORK"],
+      "attachments": [
+        {
+          "filename": "meeting_agenda.docx",
+          "size": 28650
+        }
+      ],
+      "read": false
+    },
+    {
+      "id": "msg_005",
+      "subject": "Your Package Has Been Shipped",
+      "from": "shipping@ecommerce.com",
+      "to": "user@example.com",
+      "date": "2024-11-23T11:20:00Z",
+      "snippet": "Great news! Your order #ORD-98765 has been shipped and is on its way...",
+      "body": "Hello,\n\nYour order has been shipped!\n\nOrder Number: ORD-98765\nTracking Number: 1Z999AA10123456784\nEstimated Delivery: November 26, 2024\n\nYou can track your package using the link below:\nhttps://tracking.example.com/1Z999AA10123456784\n\nThank you for shopping with us!",
+      "labels": ["INBOX"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_006",
+      "subject": "Password Reset Request",
+      "from": "security@accounts.com",
+      "to": "user@example.com",
+      "date": "2024-11-22T19:33:00Z",
+      "snippet": "We received a request to reset your password. Click the link below to create a new password...",
+      "body": "Hello,\n\nWe received a request to reset your password for your account.\n\nIf you made this request, click the link below:\nhttps://accounts.com/reset/abc123xyz\n\nThis link will expire in 1 hour.\n\nIf you didn't request this, please ignore this email and your password will remain unchanged.\n\nBest regards,\nSecurity Team",
+      "labels": ["INBOX", "IMPORTANT"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_007",
+      "subject": "Congratulations! You've Earned a Badge",
+      "from": "achievements@learningplatform.com",
+      "to": "user@example.com",
+      "date": "2024-11-21T10:15:00Z",
+      "snippet": "You've completed the Python Programming course and earned the Python Master badge! Keep learning...",
+      "body": "Congratulations!\n\nYou've successfully completed the Python Programming course and earned the 'Python Master' badge!\n\nYour achievements:\n- 50 lessons completed\n- 20 projects submitted\n- 95% average score\n\nKeep up the great work! Check out our advanced courses to continue your learning journey.\n\nHappy coding!",
+      "labels": ["INBOX"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_008",
+      "subject": "Re: Question about API Documentation",
+      "from": "support@devtools.com",
+      "to": "user@example.com",
+      "date": "2024-11-20T15:42:00Z",
+      "snippet": "Thanks for reaching out! Here's the information about our API endpoints...",
+      "body": "Hi,\n\nThanks for your question about our API documentation.\n\nThe endpoints you're looking for are documented here:\nhttps://docs.devtools.com/api/v2\n\nFor authentication, you'll need to use OAuth 2.0. Here's a quick example:\n\n```\nPOST /oauth/token\nContent-Type: application/json\n{\n  \"client_id\": \"your_client_id\",\n  \"client_secret\": \"your_secret\"\n}\n```\n\nLet me know if you need any clarification!\n\nBest,\nDev Support Team",
+      "labels": ["INBOX", "WORK"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_009",
+      "subject": "Special Offer: 50% Off Premium Membership",
+      "from": "offers@subscription.com",
+      "to": "user@example.com",
+      "date": "2024-11-19T07:30:00Z",
+      "snippet": "Limited time offer! Upgrade to Premium and get 50% off for the first 3 months...",
+      "body": "Don't Miss Out!\n\nUpgrade to Premium today and enjoy:\n- Ad-free experience\n- Unlimited downloads\n- Priority support\n- Exclusive content\n\nUse code PREMIUM50 at checkout to get 50% off for the first 3 months.\n\nOffer expires November 30, 2024.\n\nUpgrade Now: https://subscription.com/upgrade",
+      "labels": ["INBOX", "PROMOTIONS"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_010",
+      "subject": "Your Appointment Confirmation",
+      "from": "appointments@clinic.com",
+      "to": "user@example.com",
+      "date": "2024-11-18T13:20:00Z",
+      "snippet": "Your appointment with Dr. Smith has been confirmed for November 28 at 10:00 AM...",
+      "body": "Appointment Confirmation\n\nPatient: John Doe\nDoctor: Dr. Sarah Smith\nDate: November 28, 2024\nTime: 10:00 AM\nLocation: Main Clinic, Room 305\n\nPlease arrive 15 minutes early to complete any necessary paperwork.\n\nIf you need to reschedule, please call us at (555) 123-4567.\n\nSee you soon!",
+      "labels": ["INBOX", "IMPORTANT"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_011",
+      "subject": "Team Lunch on Friday - RSVP Required",
+      "from": "events@company.com",
+      "to": "user@example.com",
+      "date": "2024-11-23T09:00:00Z",
+      "snippet": "Join us for a team lunch this Friday at 12:30 PM. Please RSVP by Wednesday...",
+      "body": "Hi Team!\n\nWe're organizing a team lunch this Friday (November 29) at 12:30 PM at Mario's Italian Restaurant.\n\nThis is a great opportunity to relax and connect outside of work.\n\nPlease RSVP by Wednesday so we can make the reservation:\nhttps://forms.company.com/team-lunch-rsvp\n\nLooking forward to seeing everyone there!\n\nCheers,\nHR Team",
+      "labels": ["INBOX", "WORK"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_012",
+      "subject": "Security Alert: New Login Detected",
+      "from": "security@accounts.com",
+      "to": "user@example.com",
+      "date": "2024-11-25T06:15:00Z",
+      "snippet": "We detected a new login to your account from Chrome on Windows in New York, USA...",
+      "body": "Security Alert\n\nWe detected a new login to your account:\n\nDevice: Chrome on Windows\nLocation: New York, USA\nIP Address: 192.168.1.100\nTime: November 25, 2024 at 6:15 AM EST\n\nIf this was you, no action is needed.\n\nIf you don't recognize this activity, please secure your account immediately:\n1. Change your password\n2. Review recent activity\n3. Enable two-factor authentication\n\nStay safe!",
+      "labels": ["INBOX", "IMPORTANT", "UNREAD"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_013",
+      "subject": "Monthly Report - October 2024",
+      "from": "analytics@business.com",
+      "to": "user@example.com",
+      "date": "2024-11-17T14:00:00Z",
+      "snippet": "Your monthly analytics report is ready. View key metrics and insights for October...",
+      "body": "Monthly Report Summary\n\nHere are your key metrics for October 2024:\n\n- Total Users: 15,234 (+12% from last month)\n- Revenue: $45,678 (+8%)\n- Conversion Rate: 3.2% (+0.4%)\n- Customer Satisfaction: 4.7/5\n\nDownload the full report to see detailed analytics and trends.\n\nBest regards,\nAnalytics Team",
+      "labels": ["INBOX", "WORK"],
+      "attachments": [
+        {
+          "filename": "monthly_report_oct_2024.pdf",
+          "size": 2458920
+        }
+      ],
+      "read": true
+    },
+    {
+      "id": "msg_014",
+      "subject": "Invitation: Webinar on Cloud Computing",
+      "from": "events@techconf.com",
+      "to": "user@example.com",
+      "date": "2024-11-22T11:30:00Z",
+      "snippet": "You're invited to our upcoming webinar on Cloud Computing Best Practices. December 5, 2024...",
+      "body": "You're Invited!\n\nWebinar: Cloud Computing Best Practices for 2025\nDate: December 5, 2024\nTime: 3:00 PM EST\nDuration: 1 hour\n\nWhat you'll learn:\n- Latest cloud technologies\n- Cost optimization strategies\n- Security best practices\n- Real-world case studies\n\nRegister now: https://techconf.com/webinar/register\n\nSee you there!",
+      "labels": ["INBOX"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_015",
+      "subject": "Your Subscription is Expiring Soon",
+      "from": "subscriptions@software.com",
+      "to": "user@example.com",
+      "date": "2024-11-21T08:45:00Z",
+      "snippet": "Your premium subscription will expire on December 1, 2024. Renew now to avoid interruption...",
+      "body": "Subscription Reminder\n\nYour Premium subscription will expire on December 1, 2024.\n\nRenew now to continue enjoying:\n- All premium features\n- Priority customer support\n- Early access to new features\n\nRenew Now: https://software.com/renew\n\nQuestions? Contact our support team.\n\nThank you for being a valued customer!",
+      "labels": ["INBOX", "IMPORTANT"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_016",
+      "subject": "Thank You for Your Feedback!",
+      "from": "feedback@service.com",
+      "to": "user@example.com",
+      "date": "2024-11-20T12:00:00Z",
+      "snippet": "Thank you for taking the time to share your feedback with us. Your input helps us improve...",
+      "body": "Dear Customer,\n\nThank you for completing our recent survey! Your feedback is invaluable.\n\nWe're pleased to hear that you rated our service 5/5 stars. We're constantly working to improve and your positive feedback motivates us.\n\nYour suggestions about our mobile app have been shared with our development team.\n\nAs a token of appreciation, enjoy 20% off your next purchase with code: THANKS20\n\nBest regards,\nCustomer Success Team",
+      "labels": ["INBOX"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_017",
+      "subject": "Action Required: Verify Your Email Address",
+      "from": "noreply@newservice.com",
+      "to": "user@example.com",
+      "date": "2024-11-24T17:30:00Z",
+      "snippet": "Please verify your email address to complete your account setup. Click the link below...",
+      "body": "Welcome to NewService!\n\nTo complete your account setup, please verify your email address by clicking the button below:\n\nVerify Email: https://newservice.com/verify/token123abc\n\nThis link will expire in 24 hours.\n\nOnce verified, you'll have full access to all features.\n\nQuestions? Reply to this email or visit our help center.\n\nWelcome aboard!\nThe NewService Team",
+      "labels": ["INBOX", "UNREAD"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_018",
+      "subject": "Project Deadline Extended",
+      "from": "manager@company.com",
+      "to": "user@example.com",
+      "date": "2024-11-23T15:20:00Z",
+      "snippet": "Good news! The deadline for the Q4 project has been extended to December 15. Here's what this means...",
+      "body": "Hi Team,\n\nI have good news - the Q4 project deadline has been extended to December 15th.\n\nThis gives us additional time to:\n- Conduct thorough testing\n- Address edge cases\n- Improve documentation\n- Polish the user interface\n\nLet's use this extra time wisely. We'll maintain our regular sprint schedule.\n\nNext standup: Monday 9 AM\n\nThanks for your hard work!\nMichael",
+      "labels": ["INBOX", "WORK"],
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "msg_019",
+      "subject": "Your Code Review is Ready",
+      "from": "github@notifications.github.com",
+      "to": "user@example.com",
+      "date": "2024-11-24T20:10:00Z",
+      "snippet": "Pull request #342 has been reviewed. 3 comments and 1 change request...",
+      "body": "Pull Request Update\n\nRepository: company/main-app\nPR #342: Add user authentication feature\n\nReviewer: @senior-dev\nStatus: Changes Requested\n\nComments:\n- Great implementation overall\n- Please add unit tests for the login flow\n- Consider handling edge cases for expired tokens\n\nView full review: https://github.com/company/main-app/pull/342\n\nReply to this email or comment on GitHub.",
+      "labels": ["INBOX", "WORK", "UNREAD"],
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "msg_020",
+      "subject": "Weekend Reading: 5 Must-Read Articles",
+      "from": "curator@techdigest.com",
+      "to": "user@example.com",
+      "date": "2024-11-24T06:00:00Z",
+      "snippet": "Your personalized weekend reading list is here! This week: AI ethics, remote work trends...",
+      "body": "Weekend Reading List\n\nHere are 5 articles we think you'll enjoy:\n\n1. The Ethics of AI: Where Do We Draw the Line?\n2. Remote Work in 2025: What's Changed\n3. Building Scalable Microservices: A Complete Guide\n4. The Future of Web Development\n5. Cybersecurity Trends to Watch\n\nHappy reading!\n\nCurated just for you based on your interests.\n\nEnjoy your weekend!\nTech Digest Team",
+      "labels": ["INBOX", "NEWSLETTERS"],
+      "attachments": [],
+      "read": false
+    }
+  ]
+}
